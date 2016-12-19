@@ -1,0 +1,81 @@
+/* fonts */
+
+body {
+    background-color: #ece5d4;
+}
+
+/* clearfix */
+
+:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.wrap {
+    display: block;
+    margin: 0 auto;
+    width: 256px;
+}
+
+header {
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+/* icon */
+
+.icon {
+    border-radius: 50%;
+    box-shadow: 0 2px 7px 0 #cccccc;
+    margin: -128px auto 20px auto;
+    height: 256px;
+    width: 256px;
+}
+
+/* name */
+
+.name {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+/* link */
+
+nav a {
+    border-bottom: 1px solid #cccccc;
+    display: block;
+    font-size: 1.5em;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+nav a:first-child {
+    border-top: 1px solid #cccccc;
+}
+
+.twitter {
+    color: #55acee;
+}
+.blog {
+    color: #008fde;
+}
+.tumblr {
+    color: #35465c;
+}
+
+/*-----------------------------------------------------------------------*/
+
+
+/* smartphone media query*/
+
+@media screen and (max-width: 460px) {
+    .icon {
+        height: 128px;
+        margin-top: -64px;
+        width: 128px;
+    }
+}
